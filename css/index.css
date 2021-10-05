@@ -1,0 +1,14 @@
+.header {
+    display: grid;
+    grid-template-columns: 2fr 5fr;    
+    padding: .5em ;
+}
+.profile-image{
+    height: 100%;
+}
+
+.profile-image img {
+    border-radius: 90px;
+    height: 100px;
+    width: 100px;
+}
