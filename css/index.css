@@ -1,3 +1,8 @@
+/*HEADER*/
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 .header {
     display: grid;
     grid-template-columns: 2fr 5fr;    
@@ -11,4 +16,17 @@
     border-radius: 90px;
     height: 100px;
     width: 100px;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+}
+.nav-bar li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+}
+.nav-icons{
+    color: white;
 }
