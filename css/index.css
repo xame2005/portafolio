@@ -1,3 +1,16 @@
+/*Globales*/
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box; 
+}
+
+img{
+    width: 100%;
+     max-width: 400px;
+    height: auto;
+}
+
 .header {
     display: grid;
     grid-template-columns: 2fr 5fr;    
@@ -12,3 +25,23 @@
     height: 100px;
     width: 100px;
 }
+
+/*CARD*/
+
+.card-container   {
+    padding: .5em;
+    border: 1px solid black;
+}
+
+.card-image {
+    height: 100%;
+}
+
+.cart-content {
+
+}
+
+
+
+
+
