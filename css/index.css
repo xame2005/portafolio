@@ -1,7 +1,13 @@
 /*HEADER*/
+html{
+    font-size: 62.5%;
+    box-sizing: border-box; 
+}
+
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
 
 .header {
     display: grid;
@@ -18,15 +24,13 @@
     width: 100px;
 }
 .nav-bar{
-    display: flex;
-    flex-direction: column;
+
 }
-.nav-bar li{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.nav-bar ul{
     list-style: none;
+    display: flex;
+    justify-content: space-between;
+    justify-content: right;
+    padding-right: 2em;
 }
-.nav-icons{
-    color: white;
-}
+
