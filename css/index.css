@@ -8,20 +8,37 @@ html{
     box-sizing: inherit;
 }
 
-
-.header {
-    display: grid;
-    grid-template-columns: 2fr 5fr;    
+/*HEADER*/  
+.header {    
     padding: .5em ;
+    background-image: url(/assets/Header\ bg.jpeg);
+    background-size: cover;
+    height: 60rem;
 }
+
+.header svg{
+    stroke:#ffffff;
+    height: 20rem;
+    margin-right: 2rem;
+}
+
+.header svg:hover{
+    stroke:#fd0061;
+    height: 20rem;
+    margin-right: 2rem;
+}
+
 .profile-image{
-    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .profile-image img {
     border-radius: 90px;
-    height: 100px;
-    width: 100px;
+    height: 170px;
+    max-width: 17rem;
+    border: 5px solid #fd0061;
 }
 .nav-bar{
 
@@ -29,8 +46,18 @@ html{
 .nav-bar ul{
     list-style: none;
     display: flex;
-    justify-content: space-between;
     justify-content: right;
     padding-right: 3rem;
+}
+.hero h2{
+    color: #ffffff;
+    font-size: 7rem;
+    text-align: center;
+    display: inline-block;
+}
+
+.img-nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
