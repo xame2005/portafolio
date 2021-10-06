@@ -1,14 +1,37 @@
+/*HEADER*/
+html{
+    font-size: 62.5%;
+    box-sizing: border-box; 
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
 .header {
     display: grid;
     grid-template-columns: 2fr 5fr;    
     padding: .5em ;
 }
-.profile-image{
-    height: 100%;
+.profile-image img{
+    height: 120px;
+    width: 120px;
+    border-radius: 90px;
 }
 
 .profile-image img {
     border-radius: 90px;
     height: 100px;
     width: 100px;
+}
+.nav-bar{
+
+}
+.nav-bar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    justify-content: right;
+    padding-right: 2em;
 }
