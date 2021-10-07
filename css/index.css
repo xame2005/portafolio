@@ -1,4 +1,4 @@
-/*HEADER*/
+/*Globales*/
 html{
     font-size: 62.5%;
     box-sizing: border-box; 
@@ -9,38 +9,46 @@ html{
 }
 
 /*HEADER*/  
-.header {    
-    padding: .5em ;
+.header {   
     background-image: url(/assets/Header\ bg.jpeg);
     background-size: cover;
-    height: 60rem;
+    height: 32rem; 
+    padding: .5em ;
+    
+}
+
+.header-content {
+    margin: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+
 }
 
 .header svg{
     stroke:#ffffff;
-    height: 20rem;
     margin-right: 2rem;
+    height: 6rem;
 }
 
 .header svg:hover{
     stroke:#fd0061;
-    height: 20rem;
     margin-right: 2rem;
 }
 
 .profile-image{
     display: flex;
-    justify-content: center;
     align-items: center;
+
 }
 
 .profile-image img {
-    border-radius: 90px;
-    height: 170px;
-    max-width: 17rem;
+    border-radius: 120px;
+    height: 120px;
+    max-width: 12rem;
     border: 5px solid #fd0061;
 }
 .nav-bar{
+    justify-content: space-between;
 
 }
 .nav-bar ul{
@@ -49,31 +57,40 @@ html{
     justify-content: right;
     padding-right: 3rem;
 }
+
+.hero{
+    text-align: center;
+    align-items: center;
+}
 .hero h2{
+    text-align: center;
     color: #ffffff;
+    display: flex;
     font-size: 7rem;
     text-align: center;
-    display: inline-block;
+    
 }
 
-.img-nav{
+/* .img-nav{
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
+} */
 
-.container {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    
+.contenedor {
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+    padding: 1rem;
+    margin: .5rem;
 }
 
 
 /*CARD*/
 
 .card {
-    padding: 1.5rem;;
+    padding: 1.2rem;;
     border: 1px solid black;
-    margin-bottom: 2rem;
+    margin: 1rem;
 }
 
 .card-image {
